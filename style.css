@@ -1,0 +1,67 @@
+/* Slick Time Game Design System */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef9ff; /* Light, calm blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#terminal {
+    background: #ffffff;
+    border: 6px solid #ffcc00; /* Whimsical Yellow border */
+    border-radius: 25px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+h1 { color: #333; margin-top: 0; }
+
+#scene-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+}
+
+#problem-text {
+    font-size: 22px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #4a90e2; /* Classroom Blue */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #357abd;
+    transform: scale(1.02);
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+}
