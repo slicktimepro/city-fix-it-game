@@ -3,31 +3,31 @@ const scenarios = [
         p: "The town street is dirty. Who can fix it?", 
         options: ["Sweeper", "Hammer", "Map"], 
         correct: "Sweeper",
-        img: "assets/dirty-street.png"
+        img: "assets/dirty-street.webp"
     },
     { 
         p: "We are lost and need to find the library. What do we need?", 
         options: ["Map", "Broom", "Firefighter"], 
         correct: "Map",
-        img: "assets/lost-map.png"
+        img: "assets/lost-map.webp"
     },
     { 
         p: "Sandy's magic wand is broken. What is a good tool to fix it?", 
         options: ["Glue", "Phone", "Map"], 
         correct: "Glue",
-        img: "assets/broken-wand.png"
+        img: "assets/broken-wand.webp"
     },
     { 
         p: "There is a fire! Who can help?", 
         options: ["Firefighter", "Computer", "Pen"], 
         correct: "Firefighter",
-        img: "assets/fire.png"
+        img: "assets/fire.webp"
     },
     { 
         p: "They want to talk to each other but are far away. What is a good tool?", 
         options: ["Phone", "Hammer", "Sweeper"], 
         correct: "Phone",
-        img: "assets/phone.png"
+        img: "assets/phone.webp"
     }
 ];
 
