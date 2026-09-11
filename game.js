@@ -98,7 +98,7 @@ function showScore() {
     
     // 1. Display the appropriate victory or score screen
     if (score === scenarios.length) {
-        sceneImg.src = "assets/sandy-jump.png";
+        sceneImg.src = "assets/sandy-jump.webp";
         feedDiv.style.color = "green";
         feedDiv.innerHTML = "<h1>100% Perfect!</h1>";
     } else {
